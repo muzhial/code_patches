@@ -40,8 +40,10 @@ def tensor_slice_assignment(a, device):
     if device.startswith('cuda'):
         a = a.to(device)
         b = b.to(device)
-    for _ in range(100):
-        a[:, :, :, :] = b
+    while True:
+        # a[:, :, :, :] = b
+        time.sleep(0.05)
+        a = a * b
 
 
 if __name__ == '__main__':
@@ -62,5 +64,5 @@ if __name__ == '__main__':
 
     m = torch.randn(3, 64, 1024, 2048)
 
-    tm = tensor_slice_assignment(m, 'cpu')
+    tm = tensor_slice_assignment(m, 'cuda:0')
     print(f'assignment: {tm}')
