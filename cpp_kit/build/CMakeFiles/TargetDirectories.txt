@@ -1,3 +1,0 @@
-/home/gdd/CodePro/gddi_project/code_patches/cpp_kit/build/CMakeFiles/rebuild_cache.dir
-/home/gdd/CodePro/gddi_project/code_patches/cpp_kit/build/CMakeFiles/edit_cache.dir
-/home/gdd/CodePro/gddi_project/code_patches/cpp_kit/build/CMakeFiles/main.dir

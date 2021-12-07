@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/gdd/CodePro/gddi_project/code_patches/cpp_kit/build",
-  "command": "/bin/g++-9    -g -fPIE   -std=gnu++11 -o CMakeFiles/main.dir/main.cpp.o -c /home/gdd/CodePro/gddi_project/code_patches/cpp_kit/main.cpp",
-  "file": "/home/gdd/CodePro/gddi_project/code_patches/cpp_kit/main.cpp"
-}
-]
